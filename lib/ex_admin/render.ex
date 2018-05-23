@@ -1,6 +1,6 @@
 alias ExAdmin.Utils
 defprotocol ExAdmin.Render do
-  # @fallback_to_any true
+  @fallback_to_any true
   def to_string(data)
 end
 
