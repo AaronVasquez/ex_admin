@@ -100,6 +100,6 @@ defimpl ExAdmin.Render, for: NaiveDateTime do
   end
 end
 
-# defimpl ExAdmin.Render, for: Any do
-#   def to_string(data), do: "#{inspect data}"
-# end
+defimpl ExAdmin.Render, for: Any do
+  def to_string(data), do: "#{inspect data}"
+end
